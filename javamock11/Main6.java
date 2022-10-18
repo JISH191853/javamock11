@@ -22,7 +22,7 @@ public class Main6 {
             collegeList.add(college);
         }
         Map<String,Integer> countLoc=College.calculateLocationCount(collegeList);
-        System.out.format("%-15s %s\n","Location","Count");
+        System.out.format("%-15s ,"Location");
         for(Map.Entry<String, Integer> e:countLoc.entrySet())
         {
         	System.out.format("%-15s %s\n",e.getKey(),e.getValue());
