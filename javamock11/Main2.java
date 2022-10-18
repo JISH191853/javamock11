@@ -16,7 +16,6 @@ public class Main2 {
         while(true)
         {
         	System.out.println("1.Add college \r\n"
-        	+"2.Remove college \r\n"
         	+"3.Display college \r\n"
         	+"4.Exit \r\n"
         	+ "");
