@@ -62,7 +62,7 @@ public class Main4 {
         	System.out.println("No Such college is present");
         else 
         {
-        System.out.format("%-15s %-20s %-15s %-15s %-20s %-15s %s\n", "Name","Website","Mobile","Founder","No of departments","Location","Starting date");
+        System.out.format("%-15s %-20s %-15s %-15s %-20s %-15s %s\n", "Name","Mobile","Founder","No of departments","Location","Starting date");
         for(College college:findList)
         System.out.format("%-15s %-20s %-15s %-15s %-20s %-15s %s\n", college.getName(),college.getWebsite(),college.getMobile(),college.getFounder(),college.getNo_of_dept(),college.getLocation(),sdf.format(college.getStartingDate()));
         }
